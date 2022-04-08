@@ -1,0 +1,65 @@
+<keymap>
+    <!--
+     keymap.xml - dreamOS - EnigmaLight - 04.01.2020 v.03
+    m = make -> Normal key press
+    l = long -> Long key press
+    b = break -> Key released
+    r = repeat -> Key locked (pressed continuously)
+
+    "m" arrives once, as soon as the key is pressed
+    "r" arrives after "m", when the key is pressed continuously until the key is released
+    "l" arrives after 5 repeats, but then only once (repeat still arrives)
+    "b" arrives as soon as the key is released.
+    They can also be combine, eg. flags="mr"
+    -->
+	<map context="EL_MainMenuActions">
+		<device name="compatible: pcKeyboard">
+			<key id="KEY_F5" mapto="info" flags="m" />
+			<key id="KEY_F4" mapto="blue" flags="b" />
+			<key id="KEY_F1" mapto="red" flags="b" />
+			<key id="KEY_F2" mapto="green" flags="b" />
+			<key id="KEY_F3" mapto="yellow" flags="b" />
+			<key id="KEY_F6" mapto="menu" flags="m" />
+			<key id="KEY_ENTER" mapto="ok" flags="m" />
+			<key id="KEY_EXIT" mapto="cancel" flags="m" />
+			<key id="KEY_ESC" mapto="cancel" flags="m" />
+		</device>
+		<key id="KEY_OK" mapto="ok" flags="m" />
+		<key id="KEY_EXIT" mapto="cancel" flags="m" />
+		<key id="KEY_ESC" mapto="cancel" flags="m" />
+		<key id="KEY_HOME" mapto="cancel" flags="m" />
+		<key id="KEY_UP" mapto="up" flags="m" />
+		<key id="KEY_DOWN" mapto="down" flags="m" />
+		<key id="KEY_LEFT" mapto="left" flags="m" />
+		<key id="KEY_RIGHT" mapto="right" flags="m" />
+		<key id="KEY_POWER" mapto="power" flags="m" />
+		<key id="KEY_INFO" mapto="info" flags="m" />
+		<key id="KEY_BLUE" mapto="blue" flags="b" />
+		<key id="KEY_RED" mapto="red" flags="b" />
+		<key id="KEY_GREEN" mapto="green" flags="b" />
+		<key id="KEY_YELLOW" mapto="yellow" flags="b" />
+        <key id="KEY_MENU" mapto="menu" flags="m" />
+        <key id="KEY_0" mapto="key_0"  flags="m" />
+		<key id="KEY_1" mapto="key_1"  flags="m" />
+		<key id="KEY_2" mapto="key_2"  flags="m" />
+		<key id="KEY_3" mapto="key_3"  flags="m" />
+		<key id="KEY_4" mapto="key_4"  flags="m" />
+		<key id="KEY_5" mapto="key_5"  flags="m" />
+		<key id="KEY_6" mapto="key_6"  flags="m" />
+		
+	</map>
+	
+	<map context="EL_Settings">
+		<device name="compatible: pcKeyboard">
+			<key id="KEY_PAGEUP" mapto="bouquet_up" flags="m" />
+			<key id="KEY_PAGEDOWN" mapto="bouquet_down" flags="m" />
+			<key id="KEY_PREVIOUS" mapto="jumpPreviousMark" flags="m" />
+			<key id="KEY_NEXT" mapto="jumpNextMark" flags="m" />			
+		</device>
+		<key id="KEY_CHANNELUP" mapto="bouquet_up" flags="m" />
+		<key id="KEY_CHANNELDOWN" mapto="bouquet_down" flags="m" />
+		<key id="KEY_HOME" mapto="jumpPreviousMark" flags="m" />
+		<key id="KEY_END" mapto="jumpNextMark" flags="m" />
+	</map>
+
+	</keymap>
