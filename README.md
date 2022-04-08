@@ -12,7 +12,16 @@ Original github https://github.com/Speedy1985/enigmalight
 
 
 
-&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp;&thinsp;&ensp; <img src="https://user-images.githubusercontent.com/73450566/162437516-50f6b361-405b-4599-a930-ffa7f7641352.png" width="10%" height="10%">
+
+
+<img src="https://user-images.githubusercontent.com/73450566/162451290-123fd227-b675-43f3-8534-369dab83a8b0.png" width="25%" height="25%"><h3>I'm a total amateur. I'm not responsible for bricked receivers.If you know what you are doing please continue.</h3>
+
+
+
+
+
+
+
 
 
 To install Enigmalight on your box:
